@@ -1,0 +1,34 @@
+{
+    "name": "async-aws/sqs-extended",
+    "type": "library",
+    "description": "A simple S3 client that are easy to work with. ",
+    "keywords": [
+        "aws",
+        "async-aws",
+        "amazon",
+        "sdk",
+        "s3"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "ext-json": "*",
+        "async-aws/s3": "^1.2",
+        "async-aws/sqs": "^1.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AsyncAws\\SqsExtended\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AsyncAws\\SqsExtended\\Tests\\": "tests/"
+        }
+    }
+}
