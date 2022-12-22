@@ -1,0 +1,34 @@
+{
+    "name": "async-aws/symfony-cache",
+    "description": "AsyncAws integration for Symfony Cache.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "aws",
+        "async-aws",
+        "dynamodb",
+        "symfony",
+        "cache"
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "ext-json": "*",
+        "async-aws/dynamo-db": "^1.1",
+        "symfony/cache": "^5.4 || ^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AsyncAws\\Symfony\\Cache\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AsyncAws\\Symfony\\Cache\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
